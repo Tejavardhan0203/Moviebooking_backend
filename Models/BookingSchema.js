@@ -59,6 +59,7 @@ const bookingSchema = new mongoose.Schema({
         ref: 'User', // Reference to the User model
         required: true
     }
+    
 });
 
 const Booking = mongoose.model('Booking', bookingSchema);
